@@ -1,0 +1,12 @@
+from random import randint
+computador=randint(0,5)
+print('-=-'*20)
+print('tente adivinhar um numero entre 0 e 5')
+print('-=-'*20)
+jogador=int(input('em qual numero pensei?'))
+if jogador == computador: 
+    print('parabens voce venceu!!!!')
+else:
+    print("voce errou hahahaha!!!! eu pensei no numero {}".format(computador))
+
+#aula 28 curso em video python 
